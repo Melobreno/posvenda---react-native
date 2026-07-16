@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Pós-Venda Local",
+    "slug": "posvenda-local",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brenomelo.posvendalocal",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.brenomelo.posvendalocal",
+      "permissions": [
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#e11d48"
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4dffa550-d603-4883-a7e2-2e2d45002ef0"
+      }
+    }
+  }
+}
